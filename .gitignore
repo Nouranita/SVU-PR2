@@ -1,0 +1,69 @@
+# =======================
+# Python / Django
+# =======================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.log
+
+db.sqlite3
+staticfiles/
+media/
+
+.env
+.env.*
+
+# =======================
+# Node / React / Vite
+# =======================
+node_modules/
+dist/
+build/
+.vite/
+.eslintcache
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =======================
+# VS Code / Visual Studio
+# =======================
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =======================
+# OS files
+# =======================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =======================
+# Python tooling
+# =======================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+
+.Deeplearning node_modules
+
+/Deeplearning Model/
+runs*/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.png
+*.zip
+*.rar
